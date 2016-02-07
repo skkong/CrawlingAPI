@@ -1,6 +1,7 @@
 <?php
 	/*
 		Date: 2016-01-28
+		Author: skkong89@gmail.com
 		ex) http://angel.vps.phps.kr/data_analysis/getWeather.php?yy=2013&mm=1&stn=108
 		ex) http://www.kma.go.kr/weather/observation/past_cal.jsp?stn=108&yy=2013&mm=1&x=23&y=8&obs=1
 	*/

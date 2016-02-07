@@ -1,6 +1,7 @@
 # coding=utf-8
 #
 # Date: 2016-01-26
+# Author: skkong89@gmail.com
 # 기상청 과거 날씨 정보 조회 프로그램
 # www.kma.go.kr/weather/observation/past_cal.jsp?stn=108&yy=2013&mm=1&obs=1&x=24&y=9
 #
