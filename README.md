@@ -1,4 +1,6 @@
-# getWeather.php
+# Crawling API 모음
+
+## getWeather.php
 
 기상청 과거 날씨를 조회하는 api 입니다.
 실제 기상청 과거 날씨는 다음 url 에서 확인이 가능합니다.
@@ -11,6 +13,12 @@ http://www.kma.go.kr/weather/observation/past_cal.jsp?stn=108&yy=2013&mm=1&x=23&
 호출예제:
 ex) http://angel.vps.phps.kr/data_analysis/getWeather.php?yy=2013&mm=1&stn=108
 
-# getWeatherApi.py
+## getWeatherApi.py
+
 기상청 과거 닐씨를 조회하는 python 버전의 api 입니다.
+
+## getExchangeRate.py
+
+Naver에서 제공하는 환율 정보 페이지를 파싱해서 국가별 환율을 조회하는 프로그램입니다.
+
 
