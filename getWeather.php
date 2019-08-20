@@ -3,7 +3,7 @@
 		Date: 2016-01-28
 		Author: skkong89@gmail.com
 		ex) http://angel.vps.phps.kr/data_analysis/getWeather.php?yy=2013&mm=1&stn=108
-		ex) http://www.kma.go.kr/weather/observation/past_cal.jsp?stn=108&yy=2013&mm=1&x=23&y=8&obs=1
+		ex) http://www.kma.go.kr/weather/climate/past_cal.jsp?stn=108&yy=2013&mm=1&x=23&y=8&obs=1
 	*/
 
 	//  날씨 조회 api
@@ -12,7 +12,7 @@
 	{
 		$arr_data = array();
 
-		$url = "http://www.kma.go.kr/weather/observation/past_cal.jsp?stn=$stn&yy=$yy&mm=$mm&obs=1&x=24&y=9";
+		$url = "http://www.kma.go.kr/weather/climate/past_cal.jsp?stn=$stn&yy=$yy&mm=$mm&obs=1&x=24&y=9";
 
 		$results = "";
 		$contents = file_get_contents($url);
